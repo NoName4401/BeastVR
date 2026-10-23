@@ -1,0 +1,26 @@
+# Build output
+build/
+out/
+.vs/
+*.user
+
+# Cheat Engine tables usually hold absolute addresses; share pointer paths in docs/RECON.md instead
+*.CT
+
+# Debugger and analysis databases
+*.dd64
+*.gpr
+*.rep/
+*.id0
+*.id1
+*.nam
+*.til
+*.i64
+
+# Unity lab
+lab/**/[Ll]ibrary/
+lab/**/[Tt]emp/
+lab/**/[Oo]bj/
+lab/**/[Ll]ogs/
+lab/**/[Uu]ser[Ss]ettings/
+lab/**/[Bb]uild/
